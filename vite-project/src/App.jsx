@@ -32,7 +32,7 @@ return `${min}:${sec<10?"0":""}${sec} `
   }
   return (
     <>
-      <h1>Stop Watch</h1>
+      <h1>StopWatch</h1>
       <h4>Time: {format(timecount)}</h4>
       <button onClick={handleChange}>{isclicked ? "Stop" : "Start"}</button>
       <button onClick={handlereset}>Reset</button>
